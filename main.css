@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.mainheader{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainheader .one img{
+    margin: 1.8rem;
+    width: 14rem;
+    height: 4rem;
+}
+
+.mainheader nav{
+    width: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.mainheader nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainheader button{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    margin-right: 4rem;
+}
+
+.mainsection{
+    display: flex;
+    align-content: center;
+}
+
+.mainsection .two{
+    margin: 14.2rem;
+}
+
+.mainsection .two h1{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.mainsection .two h3{
+    margin: 2rem 0rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+
+.mainsection button{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    margin-right: 4rem;
+}
